@@ -1,0 +1,35 @@
+.box_controller {
+    width: 400px;
+    display: flex
+}
+#bag {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(../assets/full.png) center no-repeat;
+    background-size: 80%;
+}
+
+#bag.burst {
+    background: url(../assets/done.png) center no-repeat;
+    background-size: 80%;
+}
+#player-health {
+    width: 200px;
+
+    margin: 0 auto 20px auto;
+}
+#bag-health {
+    width: 200px;
+    border: 1px solid #333333;
+    margin: 0 auto 20px auto;
+}
+#bag-health div {
+    height: 20px;
+    background-color: darkgreen
+}
+
+#controls {
+    width: 120px;
+    margin: 0 auto;
+}
